@@ -1,6 +1,6 @@
 import React from "react";
 import './form.css';
-const Form = ({isLoggedIn,setIsLoggedIn}) => {
+const LoginForm = ({isLoggedIn,setIsLoggedIn}) => {
 const login=()=>{
     
     setIsLoggedIn(true)
@@ -31,4 +31,4 @@ return (
   );
 };
 
-export default Form;
+export default LoginForm;
