@@ -1,9 +1,9 @@
 import React from "react";
 import './form.css';
-const Form = (props) => {
+const Form = ({isLoggedIn,setIsLoggedIn}) => {
 const login=()=>{
     
-    props.prop[1](true) 
+    setIsLoggedIn(true)
 console.log("isLoggedIn",props.prop[0])
 console.log("isLoggedIn",props.prop[1])
 
@@ -13,7 +13,7 @@ return (
 
 <div>
    
-{props.prop[0] ? <p>You are logged in!</p> :   <div>
+{isLoggedIn ? <p>You are logged in!</p> :   <div>
       <div className="username">
         <label htmlFor="">Username:</label>
         <input type="text" />

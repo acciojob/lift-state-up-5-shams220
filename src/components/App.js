@@ -7,7 +7,7 @@ const App = () => {
   return ( 
     <div>
         {/* Do not remove the main div */}
-        <Form prop={[isLoggedIn,setIsLoggedIn]} />
+        <Form isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
 
     </div>
   )
