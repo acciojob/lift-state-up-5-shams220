@@ -13,7 +13,7 @@ return (
 
 <div>
    
-{props.prop[0] ? <p>User log</p> :   <div>
+{props.prop[0] ? <p>You are logged in!</p> :   <div>
       <div className="username">
         <label htmlFor="">Username:</label>
         <input type="text" />
