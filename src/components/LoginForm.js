@@ -2,7 +2,7 @@ import React from "react";
 import './form.css';
 const LoginForm = ({isLoggedIn,setIsLoggedIn}) => {
 const login=(e)=>{
-    e.prevent.default()
+    e.preventdefault()
     
     setIsLoggedIn(true)
 // console.log("isLoggedIn",props.prop[0])
