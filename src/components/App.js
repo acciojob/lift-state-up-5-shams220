@@ -6,6 +6,7 @@ const App = () => {
   const [isLoggedIn,setIsLoggedIn] = useState(false);
   return ( 
     <div>
+      <h1>Parent Component</h1>
         {/* Do not remove the main div */}
         <LoginForm isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
 
